@@ -218,7 +218,17 @@
         background: #fff;
         color: #3882f6;
       }
+      /* FOOTER */
 
+      footer {
+        background: #1f2937;
+        color: #9ca3af;
+        text-align: center;
+        padding: 1rem;
+        font-size: 0.9rem;
+      }
+
+      /* Responsiveness */
       @media (max-width:659px){
         .call-to-action button {
           height:3.2rem;
@@ -242,16 +252,16 @@
           display:block;
           position:relative;
           margin-bottom:200px;
-          margin-left:0;
+          /* margin-left:0; */
           padding:0;
-          margin-right: 100%;
+          /* margin-right: 100%;/ */
+          /* margin:auto; */
           width:20px;
           height: 20px;
         }
         .hero-image img{
           display:block;
           margin-left:0;
-          
           height: 200px;
         }
       }
