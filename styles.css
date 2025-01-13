@@ -176,7 +176,19 @@
         border-radius: 8px;
       }
       .call-to-action .action-box .content{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
         text-align: left;
+      }
+      .content .main-text{
+        font-size: larger;
+        font-weight: bold;
+        margin-bottom: -5px;
+      }
+      .content  .sub-text{
+        margin-top: -5px;
+        color:#dbd8d8;
       }
       .call-to-action button {
         background: #3882f6;
@@ -185,9 +197,10 @@
         padding: 0.5rem 1rem;
         font-size: 1rem;
         border-style: solid;
-        border-radius: 5px;
+        border-radius: 8px;
         cursor: pointer;
-        height:50px;
+        height:2.5rem;
+        width: 8rem;
       }
   
       .call-to-action button:hover {
