@@ -24,8 +24,8 @@
         color: #F9FAF8;
     }
     .logo-img{
-        height: 50px;
-        width: 60px;
+        height: 40px;
+        width: 40px;
     }
     header .nav-links a {
         color: #E5E7EB;
@@ -119,6 +119,7 @@
         padding: 1rem;
         height:150px;
         width: 150px;
+        
       }
       .info-item p{
         color: #9599a4;
@@ -150,3 +151,46 @@
         margin-right: 25%;
       }
       
+      /* CALL TO ACTION SECTION */
+
+      .call-to-action  {
+        display: flex;
+        justify-content: center;
+        background: #fff;
+        color: #fff;
+        text-align: center;
+        padding: 1.5rem 1rem;
+      }
+
+      .call-to-action .action-box {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        background: #3b82f6;
+        width: 65%;
+        height: 50%;
+        color: #fff;
+        text-align: center;
+        padding: 1.5rem 1rem;
+        margin: 3.5rem;
+        border-radius: 8px;
+      }
+      .call-to-action .action-box .content{
+        text-align: left;
+      }
+      .call-to-action button {
+        background: #3882f6;
+        color: #fff;
+        border: none;
+        padding: 0.5rem 1rem;
+        font-size: 1rem;
+        border-style: solid;
+        border-radius: 5px;
+        cursor: pointer;
+        height:50px;
+      }
+  
+      .call-to-action button:hover {
+        background: #fff;
+        color: #3882f6;
+      }
