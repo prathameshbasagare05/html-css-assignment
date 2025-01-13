@@ -42,8 +42,11 @@
         padding: 2rem 1rem;
       }
       .hero-info{
-        /* display: inline-flex; */
-        /* align-items: column; */
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        text-align: left;
         width: 500px;
         margin-left: 200px;
         margin-right: -250px;
@@ -53,12 +56,13 @@
         font-size: 48px;
         font-weight:extra-bold;
         color: #F9FAF8;
-        margin-bottom: 0.5rem;
+        margin-bottom: 0;
       }
   
       .hero p {
         color: #E5E7EB;
         font-size: 18px;
+        margin-top: 0;
       }
       .hero button {
         background: #3882F6;
