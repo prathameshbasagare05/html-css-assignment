@@ -232,6 +232,18 @@
       @media (max-width:659px){
         .call-to-action button {
           height:3.2rem;
+          padding: 5px;
+        }
+        .hero-image{
+          display:block;
+          position:relative;
+          margin-bottom:200px;
+          /* margin-left:0; */
+          padding:0;
+          margin-right: 100%;
+          /* margin:auto; */
+          width:20px;
+          height: 20px;
         }
       }
 
@@ -254,7 +266,7 @@
           margin-bottom:200px;
           /* margin-left:0; */
           padding:0;
-          /* margin-right: 100%;/ */
+          margin-right: 100%;
           /* margin:auto; */
           width:20px;
           height: 20px;
