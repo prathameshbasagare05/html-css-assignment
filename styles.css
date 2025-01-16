@@ -4,7 +4,9 @@
         line-height: 1.6;
         color: #333;
     }
-
+    html{
+      scroll-behavior: smooth;
+    }
     /* HEADER SECTION */
     header {
         background: #1f2937;
